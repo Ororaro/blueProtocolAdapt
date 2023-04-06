@@ -1,0 +1,42 @@
+.bg-footer{
+    margin-top: -4px;
+    background-color: black;
+    height:100%;
+    padding: 30px;
+    display: flex;
+ 
+}
+.footer-bandai img{
+    
+   padding: 25px; 
+   width: 90%;
+}
+.footer-bandai p{
+    color:white;
+}
+.sub{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.control-sub{
+    text-align: center;
+}
+.control-sub H4{
+    margin-top: 10px;
+    font-family: fantasy;
+}
+.sub .input-style{
+    width: 70%;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+.sub .MuiButtonBase-root{
+   height: auto;
+    background-color: whitesmoke ;
+}
+h4{
+    font-family: fantasy;;
+    color:white;
+}

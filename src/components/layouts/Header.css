@@ -1,0 +1,45 @@
+.dark{
+  background: #000;
+  color:white;
+}
+.dark .MuiButtonBase-root{
+  color:white;
+}
+
+.light .MuiButtonBase-root{
+  color:#000;
+  background-color: #fff !important;
+}
+.logo img{
+  width: 110px;
+
+}
+.btn-signIn{
+  background: rgb(101,226,236);
+  background: linear-gradient(90deg, rgba(101,226,236,1) 23%, rgba(93,225,226,1) 42%, rgba(95,229,167,1) 60%, rgba(84,239,198,1) 76%, rgba(0,255,201,1) 100%);
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 1s;
+  position:absolute;
+  right:0px;
+
+}
+.btn-signIn:hover{
+  margin-right: 30px;
+  background: rgb(101,226,236);
+  background: linear-gradient(90deg, rgba(0,255,201,1) 100%, rgba(84,239,198,1) 76% ,rgba(95,229,167,1) 60%, rgba(93,225,226,1) 42%, rgba(101,226,236,1) 23%);
+  
+}
+.btn-signIn .MuiTypography-root{
+  text-align: center;
+  color:#000;
+  font-family: fantasy;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.MuiButtonBase-root:hover{
+  background: rgb(101,226,236);
+  background: linear-gradient(90deg, rgba(0,255,201,1) 100%, rgba(84,239,198,1) 76% ,rgba(95,229,167,1) 60%, rgba(93,225,226,1) 42%, rgba(101,226,236,1) 23%);
+ 
+}

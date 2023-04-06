@@ -1,0 +1,9 @@
+.light h2 {
+    font-weight: 500;
+    font-family: fantasy;
+    letter-spacing: 5px;
+    
+}
+.light .header-mapView h2{
+   padding-bottom: 3rem;
+}
