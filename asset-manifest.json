@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/blueProtocolAdapt/static/css/main.51d9f3c2.css",
+    "main.js": "/blueProtocolAdapt/static/js/main.cb348572.js",
+    "static/js/787.c6152a8b.chunk.js": "/blueProtocolAdapt/static/js/787.c6152a8b.chunk.js",
+    "static/media/BAVDO.mp4": "/blueProtocolAdapt/static/media/BAVDO.37c10bc8dd03fb442cbe.mp4",
+    "static/media/maxresdefault.png": "/blueProtocolAdapt/static/media/maxresdefault.115be205b1c5ae9fe0c8.png",
+    "static/media/blue-protocol8.jpg": "/blueProtocolAdapt/static/media/blue-protocol8.fbb7d8ab343c7fe4fbb2.jpg",
+    "static/media/415165.jpg": "/blueProtocolAdapt/static/media/415165.c70879fb50648aac089d.jpg",
+    "static/media/blue_protocol_key_art_540.jpg": "/blueProtocolAdapt/static/media/blue_protocol_key_art_540.48e37e1b0be5616779b3.jpg",
+    "static/media/HD-wallpaper-blue-protocol-when-will-video-game-release-date.jpg": "/blueProtocolAdapt/static/media/HD-wallpaper-blue-protocol-when-will-video-game-release-date.f2c3c8e988e51b2a0129.jpg",
+    "static/media/ps_press_kit_screenshots_combat_classlineup_580x330.jpg": "/blueProtocolAdapt/static/media/ps_press_kit_screenshots_combat_classlineup_580x330.5d5437dfb9bebb8d2dd6.jpg",
+    "static/media/ps_press_kit_screenshots_bahamarhighlands_f_580x330.jpg": "/blueProtocolAdapt/static/media/ps_press_kit_screenshots_bahamarhighlands_f_580x330.0dc4270153532c8a3487.jpg",
+    "static/media/LOGO.png": "/blueProtocolAdapt/static/media/LOGO.c6b671d516dfab554f7a.png",
+    "static/media/blue-protocol-logo-1.png": "/blueProtocolAdapt/static/media/blue-protocol-logo-1.788ebc01892715f073b3.png",
+    "static/media/BP_logo_TM.svg": "/blueProtocolAdapt/static/media/BP_logo_TM.ddae515c754c9c3bb97e3ba14a721a09.svg",
+    "index.html": "/blueProtocolAdapt/index.html",
+    "main.51d9f3c2.css.map": "/blueProtocolAdapt/static/css/main.51d9f3c2.css.map",
+    "main.cb348572.js.map": "/blueProtocolAdapt/static/js/main.cb348572.js.map",
+    "787.c6152a8b.chunk.js.map": "/blueProtocolAdapt/static/js/787.c6152a8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51d9f3c2.css",
+    "static/js/main.cb348572.js"
+  ]
+}
