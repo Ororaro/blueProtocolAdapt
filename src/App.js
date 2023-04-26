@@ -20,9 +20,11 @@ function App() {
         <Section1 />
         <Section4 />
         <Section2 />
+       
         <Section3 />
         <Section5 /> 
         <Section6 />
+       
         <Footer />
       </BrowserRouter>
     </ThemeContext.Provider>

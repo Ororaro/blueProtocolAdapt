@@ -15,9 +15,10 @@ import ListItemText from '@mui/material/ListItemText';
 import Switch from "react-switch";
 import { useContext, useState } from "react"
 import { ThemeContext } from '../../App';
-import  dark from '../../images/blue-protocol-logo-1.png';
-import  light from '../../images/LOGO.png';
-
+import dark from '../../images/blue-protocol-logo-1.png';
+import light from '../../images/LOGO.png';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
+import LightModeIcon from '@mui/icons-material/LightMode';
 const pages = ['GAME', 'NEWS', 'COMMUNITY'];
 const drawerWidth = 240;
 
@@ -63,23 +64,22 @@ const ResponsiveAppBar = (props) => {
                     aria-label="open drawer"
                     edge="start"
                     onClick={handleDrawerToggle}
-                    sx={{ mr: 2,ml:1, display: { sm: 'none' } }}
+                    sx={{ mr: 2, ml: 1, display: { sm: 'none' } }}
                 >
                     <MenuIcon />
                 </IconButton>
-                <Box className="logo" sx={{ ml:1,display: { xs: 'none', md: 'flex' } }}>
-                    <img src={theme==='dark'?dark:light} width={100} />
+                <Box className="logo" sx={{ ml: 1, display: { xs: 'none', md: 'flex' } }}>
+                    <img src={theme === 'dark' ? dark : light} width={100} />
                 </Box>
-                <Box sx={{ flexGrow: 1, display: { md: 'flex', xs: 'none' } }} >
+                <Box className="menu-list" sx={{ flexGrow: 1, display: { md: 'flex', xs: 'none' } }} >
                     {pages.map((page) => (
                         <Button
-                            sx={{ my: 2, display: 'block', ml: 5, mr: 2, fontSize: 22, fontFamily: 'fantasy', letterSpacing: 3 }}
+                            sx={{ my: 2, display: 'block', ml: 5, mr: 2, fontSize: 22, fontWeight: '300 !important', fontFamily: 'fantasy', letterSpacing: 3 }}
                         >
                             {page}
                         </Button>
                     ))}
                 </Box>
-             
                 <Box component="nav">
                     <Drawer
                         container={container}
@@ -97,7 +97,10 @@ const ResponsiveAppBar = (props) => {
                         {drawer}
                     </Drawer>
                 </Box>
-                <Box sx={{flexGrow:1,textAlign:'center',ml:4}}>
+                <Box sx={{ flexGrow:{md:'1',sm:'1',xs:'0'}, textAlign: 'center', ml: 4, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <Box sx={{ marginLeft: '10px' }}>
+                        <Typography sx={{fontFamily:'fantasy',fontSize:'20px',marginRight:'10px',letterSpacing:'1px'}}>{theme === 'light' ? 'Light Mode' : 'Dark Mode'}</Typography>
+                    </Box>
                     <Switch
                         onChange={toggleSwitch}
                         checked={theme === "dark"}
@@ -105,6 +108,9 @@ const ResponsiveAppBar = (props) => {
                         checkedIcon={false}
                         onColor={'#ffa500'}
                     />
+                    <Box sx={{ margin: '0 15px' }}>
+                        {theme === 'light' ? <LightModeIcon sx={{ fontSize: '40px', color: 'gold' }} /> : <DarkModeIcon sx={{ fontSize: '40px' }} />}
+                    </Box>
                 </Box>
                 <Box className="btn-signIn" sx={{ width: { xs: '20%', md: '10%' } }}>
                     <Typography>SIGN IN</Typography>

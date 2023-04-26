@@ -14,11 +14,6 @@ const Section4 = () => {
     <Box className={theme === "dark" ? "dark" : "light"}>
       <Box className="news">
         <Typography variant='h2'>NEWS</Typography>
-        <Box className="new-pagination" sx={{ textAlign: { xs: 'center', md: 'right', sm: 'right' } }}>
-          <Button></Button>
-          <Button></Button>
-          <Button></Button>
-        </Box>
         <Grid container spacing={2}>
           <Grid item md={4} sm={4} xs={12}>
             <Box className="news-item">

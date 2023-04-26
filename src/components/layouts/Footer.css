@@ -19,6 +19,9 @@
     margin-top: 1rem;
     margin-left: 2rem;
 }
+.sub .MuiButtonBase-root:hover{
+    background-color: #fff !important;
+ }
 .control-sub{
     text-align: center;
 }
@@ -26,6 +29,7 @@
     margin-top: 10px;
     font-family: fantasy;
 }
+
 .sub .input-style{
     width: 70%;
     font-size: 15px;
@@ -33,10 +37,12 @@
     background-color: whitesmoke;
 }
 .sub .MuiButtonBase-root{
-   height: auto;
+    margin-left: 5px;
     background-color: whitesmoke ;
+   
 }
 h4{
     font-family: fantasy;;
     color:white;
+    
 }

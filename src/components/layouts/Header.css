@@ -38,8 +38,11 @@
   font-size: 20px;
   letter-spacing: 2px;
 }
+.menu-list .MuiButtonBase-root{
+  background-color: none !important;
+  transition: background-color 1s;
+}
 .MuiButtonBase-root:hover{
-  background: rgb(101,226,236);
-  background: linear-gradient(90deg, rgba(0,255,201,1) 100%, rgba(84,239,198,1) 76% ,rgba(95,229,167,1) 60%, rgba(93,225,226,1) 42%, rgba(101,226,236,1) 23%);
+  background-color: rgba(101,226,236,1) !important;
  
 }

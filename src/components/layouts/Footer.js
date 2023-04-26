@@ -23,8 +23,10 @@ const Footer = () => {
           <Box className='control-sub'>
             <Typography variant='h4'>ENTER YOUR EMAIL</Typography>
             <Box className="sub">
-            <TextField label="ENTER YOUR EMAIL" variant="outlined" className='input-style' />
-              <Button>SUBMIT</Button>
+              <TextField label="ENTER YOUR EMAIL"
+                variant="filled"
+                className='input-style' InputLabelProps={{ className: 'textfield__label' }} />
+              <Button sx={{ color: 'gray' }}>SUBMIT</Button>
             </Box>
           </Box>
         </Grid>
