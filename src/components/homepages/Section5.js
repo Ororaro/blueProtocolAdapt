@@ -1,9 +1,8 @@
 import React from 'react'
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import { Button, Container, Grid } from '@mui/material';
+import {Container, Grid } from '@mui/material';
 import './Section5.css';
-import img1 from '../../images/maxresdefault.png'
 import { ThemeContext } from '../../App';
 import { useContext, useState } from "react"
 import ClassesData from '../mock/CharacterData'
@@ -47,7 +46,6 @@ const Section5 = () => {
                     </Grid>
                   </Grid>
                 )}
-
               </Box>
             )
           })}

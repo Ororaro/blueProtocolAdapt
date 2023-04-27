@@ -7,7 +7,6 @@
  
 }
 .footer-bandai img{
-    
    padding: 25px; 
    width: 90%;
 }
@@ -15,9 +14,7 @@
     color:white;
 }
 .sub{
-    display: flex;
     margin-top: 1rem;
-    margin-left: 2rem;
 }
 .sub .MuiButtonBase-root:hover{
     background-color: #fff !important;
@@ -27,7 +24,7 @@
 }
 .control-sub H4{
     margin-top: 10px;
-    font-family: fantasy;
+    font-family: initial;
 }
 
 .sub .input-style{
@@ -42,7 +39,6 @@
    
 }
 h4{
-    font-family: fantasy;;
+    font-family: initial;
     color:white;
-    
 }

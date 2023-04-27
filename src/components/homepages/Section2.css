@@ -1,61 +1,87 @@
-.SpacePadding{
-    padding: 15px;
+.news {
+    margin-top: -4px;
+    padding: 3rem;
 }
-.dark .style-inside-box{
-   background-color: #fff;
+ .new-pagination {
+    margin-top: 2rem;
 }
-.dark .style-inside-box h2{
-   color:#000;
- }
- .dark .style-inside-box h5{
-    color:#000;
-  }
- .Head-Story h2{
-    font-weight: 500;
-    font-family: fantasy;
-    letter-spacing: 5px;
+.dark .new-pagination .MuiButtonBase-root{
+    background-color: #fff;
+    margin-left: 20px;
 }
-.Head-Story h3{
-    padding-top: 15px;
-    font-weight: 500;
-    font-family: fantasy;
+.light .new-pagination .MuiButtonBase-root{
+    background-color: #000 !important;
+    margin-left: 20px;
+}
+
+.news .MuiTypography-root{
+    text-align: left;
     letter-spacing: 3px;
-    font-size: 20px;
-    color:rgb(18, 150, 211);
+    font-family: 'initial';
 }
-.style-inside-box{
+
+.news-item{
+    margin-top: 3rem;
+
+}
+.light .box-text{
     background-color: #000;
-    border-radius: 15px;
-   
+    margin-top: -4px;
+    color: #fff;
+    padding: 25px;
+    height: 100%;
 }
-.style-inside-box h2{
+.light .MuiButtonBase-root{
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    letter-spacing: 2px;
     font-weight: 700;
-    letter-spacing: 5px;
-    color:#fff;
-    padding: 20px;
 }
-.style-inside-box h5{
-    letter-spacing: 5px;
-    color:#fff;
-    padding: 20px;
-}
-.style-inside-box img{
-    padding: 20px;
-    width: 80%;
+.dark .box-text{
+    background-color: #fff;
+    margin-top: -4px;
+    color: #000;
+    padding: 25px;
     
 }
-.Box-Character{
-    margin-top: 2rem;
-    position: relative;
+.dark  .MuiButtonBase-root{
+    border-radius: 10px;
+    background-color: #000;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
-.arrow{
-    padding-top: 3rem;
+.news-item h5{
+    font-size: 15px;
+    text-align: left !important;
+    color:rgb(18, 150, 211);
+    padding-top: 15px;
+}
+
+.news-item img:hover{
+   transform: scale(1.1);
+}
+.news-item h3{
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: left !important;
+}
+.allnews{
     text-align: center;
+    padding-top: 3rem;
 }
-.leftArrow{
-    cursor: pointer;
+.allnews .MuiButtonBase-root{
+    padding: 15px;
+    width: 200px;
+    border-radius: 30px;
+    border: 3px solid #4CAF50;
+    background-color: aliceblue;
+    color:black;
+    transition: 0.5s;
+    letter-spacing: 5px;
 }
-.rightArrow{
-    cursor: pointer;
-    padding-left: 4rem;
+.allnews .MuiButtonBase-root:hover{
+    transform: scale(1.2);
+    background-color: aliceblue !important;
 }

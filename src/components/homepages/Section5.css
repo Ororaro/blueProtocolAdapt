@@ -14,9 +14,8 @@ iframe{
     margin-top: 2rem;
 }
 .classes-text h3{
-    font-weight: 400;
-    font-family: fantasy;
-    font-style: italic;
+    font-weight: 700;
+    font-family: initial;
     letter-spacing: 2px;
 }
 .classes-text h5{

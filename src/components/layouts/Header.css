@@ -51,9 +51,10 @@
 .btn-signIn .MuiTypography-root {
   text-align: center;
   color: #000;
-  font-family: fantasy;
+  font-family: initial;
   font-size: 20px;
   letter-spacing: 2px;
+  font-weight: 700;
 }
 
 .menu-list .MuiButtonBase-root {

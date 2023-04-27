@@ -1,87 +1,14 @@
-.news {
-    margin-top: -4px;
-    padding: 3rem;
-}
- .new-pagination {
-    margin-top: 2rem;
-}
-.dark .new-pagination .MuiButtonBase-root{
-    background-color: #fff;
-    margin-left: 20px;
-}
-.light .new-pagination .MuiButtonBase-root{
-    background-color: #000 !important;
-    margin-left: 20px;
-}
-
-.news .MuiTypography-root{
-    text-align: left;
-    letter-spacing: 3px;
-    font-family: fantasy;
-}
-
-.news-item{
-    margin-top: 3rem;
-
-}
-.light .box-text{
-    background-color: #000;
-    margin-top: -4px;
-    color: #fff;
-    padding: 25px;
-    height: 100%;
-}
-.light .MuiButtonBase-root{
-    border-radius: 10px;
-    background-color: aliceblue;
-    padding: 10px;
-    letter-spacing: 2px;
+.light h2 {
     font-weight: 700;
-}
-.dark .box-text{
-    background-color: #fff;
-    margin-top: -4px;
-    color: #000;
-    padding: 25px;
+    font-family: initial ;
+    letter-spacing: 5px;
     
 }
-.dark  .MuiButtonBase-root{
-    border-radius: 10px;
-    background-color: #000;
-    padding: 10px;
-    letter-spacing: 2px;
+.dark h2 {
     font-weight: 700;
-}
-.news-item h5{
-    font-size: 15px;
-    text-align: left !important;
-    color:rgb(18, 150, 211);
-    padding-top: 15px;
-}
-
-.news-item img:hover{
-   transform: scale(1.1);
-}
-.news-item h3{
-    font-size: 30px;
-    padding-top: 15px;
-    text-align: left !important;
-}
-.allnews{
-    text-align: center;
-    padding-top: 3rem;
-}
-.allnews .MuiButtonBase-root{
-    padding: 15px;
-    width: 200px;
-    border-radius: 30px;
-    border: 3px solid #4CAF50;
-    background-color: aliceblue;
-    color:black;
-    transition: 0.5s;
+    font-family: initial ;
     letter-spacing: 5px;
 }
-.allnews .MuiButtonBase-root:hover{
-    transform: scale(1.2);
-    background-color: aliceblue !important;
+.light .header-mapView h2{
+   padding-bottom: 3rem;
 }

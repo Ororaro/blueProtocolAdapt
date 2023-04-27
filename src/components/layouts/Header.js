@@ -77,7 +77,7 @@ const ResponsiveAppBar = (props) => {
                 <Box className="menu-list" sx={{ display: { md: 'flex',sm:'none', xs: 'none' } }} >
                     {pages.map((page) => (
                         <Button
-                            sx={{ my: 2, display: 'block', ml: 5, mr: 2, fontSize: 22, fontWeight: '300 !important', fontFamily: 'fantasy', letterSpacing: 3 }}
+                            sx={{ my: 2, display: 'block', ml: 5, mr: 2, fontSize: 22, fontWeight: '700 !important', fontFamily: 'initial', letterSpacing: 3 }}
                         >
                             {page}
                         </Button>
@@ -104,7 +104,7 @@ const ResponsiveAppBar = (props) => {
                     <Box sx={{position:'absolute',right:{md:'7%',sm:'13%',xs:'5%'},
                              display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         <Box sx={{ marginLeft: '10px' }}>
-                            <Typography sx={{ fontFamily: 'fantasy', fontSize: '20px', marginRight: '10px', letterSpacing: '1px' }}>{theme === 'light' ? 'Light Mode' : 'Dark Mode'}</Typography>
+                            <Typography sx={{ fontFamily: 'initial',fontWeight:700, fontSize: '20px', marginRight: '10px', letterSpacing: '1px' }}>{theme === 'light' ? 'Light Mode' : 'Dark Mode'}</Typography>
                         </Box>
                         <Switch
                             onChange={toggleSwitch}

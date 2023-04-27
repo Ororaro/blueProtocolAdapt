@@ -1,9 +1,62 @@
-.light h2 {
-    font-weight: 500;
-    font-family: fantasy;
+*{
+    font-family: initial !important;
+}
+.SpacePadding{
+    padding: 15px;
+}
+.dark .style-inside-box{
+   background-color: #fff;
+}
+.dark .style-inside-box h2{
+   color:#000;
+ }
+ .dark .style-inside-box h5{
+    color:#000;
+  }
+ .Head-Story h2{
+    font-weight: 900;
     letter-spacing: 5px;
+}
+.Head-Story h3{
+    padding-top: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color:rgb(18, 150, 211);
+}
+.style-inside-box{
+    background-color: #000;
+    border-radius: 15px;
+   
+}
+.style-inside-box h2{
+    font-weight: 700;
+    letter-spacing: 5px;
+    color:#fff;
+    padding: 20px;
+}
+.style-inside-box h5{
+    letter-spacing: 5px;
+    color:#fff;
+    padding: 20px;
+}
+.style-inside-box img{
+    padding: 20px;
+    width: 80%;
     
 }
-.light .header-mapView h2{
-   padding-bottom: 3rem;
+.Box-Character{
+    margin-top: 2rem;
+    position: relative;
+}
+.arrow{
+    padding-top: 3rem;
+    text-align: center;
+}
+.leftArrow{
+    cursor: pointer;
+}
+.rightArrow{
+    cursor: pointer;
+    padding-left: 4rem;
 }

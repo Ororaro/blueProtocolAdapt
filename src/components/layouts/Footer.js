@@ -7,26 +7,25 @@ const Footer = () => {
   return (
     <Box className="bg-footer">
       <Grid container spacing={2}>
-        <Grid item md={4} sm={4} xs={12}>
+        <Grid item md={4} sm={6} xs={12}>
           <Box className="footer-bandai">
             <img src={footerlogo} />
           </Box>
         </Grid>
-        <Grid item md={4} sm={4} xs={12}>
+        <Grid item md={4} sm={6} xs={12}>
           <Box className="footer-bandai">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-              standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-            </p>
+            <Typography sx={{paddingTop:{md:'35px',sm:'25px',xs:'0'}}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            </Typography>
           </Box>
         </Grid>
-        <Grid item md={4} sm={4} xs={12}>
+        <Grid item md={4} sm={12} xs={12}>
           <Box className='control-sub'>
             <Typography variant='h4'>ENTER YOUR EMAIL</Typography>
             <Box className="sub">
               <TextField label="ENTER YOUR EMAIL"
                 variant="filled"
                 className='input-style' InputLabelProps={{ className: 'textfield__label' }} />
-              <Button sx={{ color: 'gray' }}>SUBMIT</Button>
+              <Button sx={{ color: 'gray',height:'55px' }}>SUBMIT</Button>
             </Box>
           </Box>
         </Grid>
