@@ -22,13 +22,13 @@ export default function Section3() {
         <Typography variant='h2'>Map View</Typography>
         </Box>
         <Grid container spacing={2}>
-          <Grid item md={12} sm={6} xs={12} data-aos="fade-up" >
+          <Grid item md={12} sm={6} xs={12} data-aos="fade-down" >
             <img src={img1} width='100%' />
           </Grid>
-          <Grid item md={6} sm={6} xs={12} data-aos="fade-right">
+          <Grid item md={6} sm={6} xs={12} data-aos="flip-left">
             <img src={img2} width='100%' />
           </Grid>
-          <Grid item md={6} sm={6} xs={12} data-aos="fade-left">
+          <Grid item md={6} sm={6} xs={12} data-aos="flip-right">
             <img src={img3} width='100%' />
           </Grid>
         </Grid>

@@ -51,6 +51,9 @@ const ResponsiveAppBar = (props) => {
                     </ListItem>
                 ))}
             </List>
+            <Box className="btn-signIn-mb" sx={{ textAlign: 'center' }} >
+                <Typography>SIGN IN</Typography>
+            </Box>
         </Box>
     );
 
@@ -64,14 +67,14 @@ const ResponsiveAppBar = (props) => {
                     aria-label="open drawer"
                     edge="start"
                     onClick={handleDrawerToggle}
-                    sx={{ mr: 2, ml: 1, display: { sm: 'none' } }}
+                    sx={{ mr: 2, ml: 1, display: { md: 'none' } }}
                 >
                     <MenuIcon />
                 </IconButton>
-                <Box className="logo" sx={{ ml: 1, display: { xs: 'none', md: 'flex' } }}>
+                <Box className="logo" sx={{ ml: 1, display: { xs: 'none',sm:'none', md: 'flex' } }}>
                     <img src={theme === 'dark' ? dark : light} width={100} />
                 </Box>
-                <Box className="menu-list" sx={{ flexGrow: 1, display: { md: 'flex', xs: 'none' } }} >
+                <Box className="menu-list" sx={{ display: { md: 'flex',sm:'none', xs: 'none' } }} >
                     {pages.map((page) => (
                         <Button
                             sx={{ my: 2, display: 'block', ml: 5, mr: 2, fontSize: 22, fontWeight: '300 !important', fontFamily: 'fantasy', letterSpacing: 3 }}
@@ -90,30 +93,33 @@ const ResponsiveAppBar = (props) => {
                             keepMounted: true, // Better open performance on mobile.
                         }}
                         sx={{
-                            display: { xs: 'block', sm: 'none' },
+                            display: { xs: 'block', sm: 'block',md:'none' },
                             '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
                         }}
                     >
                         {drawer}
                     </Drawer>
                 </Box>
-                <Box sx={{ flexGrow:{md:'1',sm:'1',xs:'0'}, textAlign: 'center', ml: 4, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <Box sx={{ marginLeft: '10px' }}>
-                        <Typography sx={{fontFamily:'fantasy',fontSize:'20px',marginRight:'10px',letterSpacing:'1px'}}>{theme === 'light' ? 'Light Mode' : 'Dark Mode'}</Typography>
+                <Box sx={{display:'flex',alignItems:'center',textAlign:'center'}}>
+                    <Box sx={{position:'absolute',right:{md:'7%',sm:'13%',xs:'5%'},
+                             display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <Box sx={{ marginLeft: '10px' }}>
+                            <Typography sx={{ fontFamily: 'fantasy', fontSize: '20px', marginRight: '10px', letterSpacing: '1px' }}>{theme === 'light' ? 'Light Mode' : 'Dark Mode'}</Typography>
+                        </Box>
+                        <Switch
+                            onChange={toggleSwitch}
+                            checked={theme === "dark"}
+                            uncheckedIcon={false}
+                            checkedIcon={false}
+                            onColor={'#ffa500'}
+                        />
+                        <Box sx={{ margin: '0 15px' }}>
+                            {theme === 'light' ? <LightModeIcon sx={{ fontSize: '40px', color: 'gold' }} /> : <DarkModeIcon sx={{ fontSize: '40px' }} />}
+                        </Box>
                     </Box>
-                    <Switch
-                        onChange={toggleSwitch}
-                        checked={theme === "dark"}
-                        uncheckedIcon={false}
-                        checkedIcon={false}
-                        onColor={'#ffa500'}
-                    />
-                    <Box sx={{ margin: '0 15px' }}>
-                        {theme === 'light' ? <LightModeIcon sx={{ fontSize: '40px', color: 'gold' }} /> : <DarkModeIcon sx={{ fontSize: '40px' }} />}
+                    <Box className="btn-signIn" sx={{ display: { md: 'flex', sm: 'flex', xs: 'none' } }}>
+                        <Typography>SIGN IN</Typography>
                     </Box>
-                </Box>
-                <Box className="btn-signIn" sx={{ width: { xs: '20%', md: '10%' } }}>
-                    <Typography>SIGN IN</Typography>
                 </Box>
             </Toolbar>
         </Box>
