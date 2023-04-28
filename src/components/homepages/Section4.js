@@ -19,7 +19,7 @@ export default function Section3() {
     <Box className={theme === "dark" ? "dark" : "light"} sx={{ width: '100%' }}>
       <Container maxWidth='lg'>
         <Box className="header-mapView">
-        <Typography variant='h2'>Map View</Typography>
+        <Typography variant='h2' sx={{fontSize:{md:'55px',sm:'55',xs:'40px'}}}>Map View</Typography>
         </Box>
         <Grid container spacing={2}>
           <Grid item md={12} sm={6} xs={12} data-aos="fade-down" >

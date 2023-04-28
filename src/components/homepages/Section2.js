@@ -13,7 +13,7 @@ const Section4 = () => {
   return (
     <Box className={theme === "dark" ? "dark" : "light"}>
       <Box className="news">
-        <Typography variant='h2'>NEWS</Typography>
+        <Typography variant='h2' sx={{fontSize:{md:'55px',sm:'55',xs:'40px'}}}>NEWS</Typography>
         <Grid container spacing={2}>
           <Grid item md={4} sm={4} xs={12}>
             <Box className="news-item">

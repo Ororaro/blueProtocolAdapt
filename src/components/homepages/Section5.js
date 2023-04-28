@@ -23,7 +23,7 @@ const Section5 = () => {
       <Box className={theme === "dark" ? "dark" : "light"} >
          <Container maxWidth='lg'>
         <Box className="bg-Classes" sx={{height:{md:'800px',sm:'800px',xs:'100%'}}}>
-          <Typography variant='h2'>Blue Protocol </Typography>
+          <Typography variant='h2' sx={{fontSize:{md:'55px',sm:'55',xs:'40px'}}}>Blue Protocol </Typography>
           <Typography variant='h6'> CLASSES</Typography>
           <Box className="arrow-character">
             <ArrowBackIcon className='arrow-left' onClick={PrevSlide} />

@@ -101,7 +101,7 @@ const ResponsiveAppBar = (props) => {
                     </Drawer>
                 </Box>
                 <Box sx={{display:'flex',alignItems:'center',textAlign:'center'}}>
-                    <Box sx={{position:'absolute',right:{md:'7%',sm:'13%',xs:'5%'},
+                    <Box sx={{position:'absolute',right:{md:'9%',sm:'0%',xs:'0%'},
                              display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         <Box sx={{ marginLeft: '10px' }}>
                             <Typography sx={{ fontFamily: 'initial',fontWeight:700, fontSize: '20px', marginRight: '10px', letterSpacing: '1px' }}>{theme === 'light' ? 'Light Mode' : 'Dark Mode'}</Typography>
@@ -117,7 +117,7 @@ const ResponsiveAppBar = (props) => {
                             {theme === 'light' ? <LightModeIcon sx={{ fontSize: '40px', color: 'gold' }} /> : <DarkModeIcon sx={{ fontSize: '40px' }} />}
                         </Box>
                     </Box>
-                    <Box className="btn-signIn" sx={{ display: { md: 'flex', sm: 'flex', xs: 'none' } }}>
+                    <Box className="btn-signIn" sx={{ display: { md: 'flex', sm: 'none', xs: 'none' } }}>
                         <Typography>SIGN IN</Typography>
                     </Box>
                 </Box>

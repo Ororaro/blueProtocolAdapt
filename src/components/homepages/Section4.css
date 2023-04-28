@@ -12,3 +12,6 @@
 .light .header-mapView h2{
    padding-bottom: 3rem;
 }
+.dark .header-mapView h2{
+    padding-bottom: 3rem;
+ }

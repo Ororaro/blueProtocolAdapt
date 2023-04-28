@@ -27,7 +27,7 @@ const Section2 = () => {
         <Box className={theme === "dark" ? "dark" : "light"} >
             <Box className="SpacePadding">
                 <Box className="Head-Story" >
-                    <Typography variant='h2'>New Characters</Typography>
+                    <Typography variant='h2' sx={{fontSize:{md:'55px',sm:'55',xs:'40px'}}}>New Characters</Typography>
                     <Typography variant='h3'>Blue Protocol Story Characters</Typography>
                 </Box>
                 <Box className="Box-Character" data-aos="fade-up" >
